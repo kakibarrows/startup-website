@@ -1,0 +1,87 @@
+.cards {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+
+.chili-avatar {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.chili-avatar > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.chili-avatar h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.chili-avatar p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.chili-avatar .chili-info {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.chili-info .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+
